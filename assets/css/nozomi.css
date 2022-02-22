@@ -1,0 +1,45 @@
+header img{
+    height: 100px;
+}
+
+header div{
+    text-align: center;
+}
+
+/*slick setting*/
+.slide{
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+.slider li{
+    text-align: center;
+}
+
+.slider img{
+    height: 550px;
+    width: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-dots li
+button:before{
+    color: black;
+}
+
+.slick-initialized .slick-slide{
+    display: flex;
+    justify-content: center;
+} 
