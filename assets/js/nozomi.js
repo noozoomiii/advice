@@ -6,7 +6,7 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
-        centerPadding: '11%',
+        centerPadding: '15%',
     });
 
     $('.mc-btn').on('click', function () {
@@ -36,6 +36,20 @@ $(function () {
                 //通信完了時の処理
                 //結果に関わらず実行したいスクリプトを記載
             });
+    })
+
+    $('.icon-utensils').on('click', function () {
+        $('.target-donald').toggleClass('hide');
+    })
+
+    // if (position > Q11_position) {
+    //     $('.q11-target').removeClass('hide');
+    // } else {
+    //     $('.q11-target').addClass('hide');
+    // }
+
+    $('.icon-ice').on('click', function () {
+        $('.target-mc').toggleClass('hide');
     })
 
 
