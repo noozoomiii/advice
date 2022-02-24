@@ -1,11 +1,41 @@
-/* header{
-    display: flex; 
-    justify-content: center;
-} */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.icon-ice,
+.icon-utensils,
+.icon-burger{
+    font-size: 30px;
+}
+
+.icon-ice{
+    margin-left: 70px;
+    color: pink;
+}
+
+.icon-utensils{
+    margin-right: 20px;
+    color: rgb(192, 187, 187);
+}
+
+.icon-burger{
+    margin-right: 70px;
+    color: rgb(250, 166, 57);
+}
 
 .mc{
     height: 100px;
-    
+}
+
+.mc-btn{
+    cursor: pointer;
+    /* text-align: center; */
+    margin-top: 10px;
+    position: relative;
+    width: 112px;
+    /* margin: 0 auto; */
 }
 
 .clickme{
@@ -14,16 +44,6 @@
     position: absolute;
     top: 5%;
     left: 80%;
-}
-
-.mc-btn{
-    cursor: pointer;
-    text-align: center;
-    margin-top: 10px;
-    position: relative;
-    width: 112px;
-    margin: 0 auto;
-
 }
 
 /*slick setting*/
