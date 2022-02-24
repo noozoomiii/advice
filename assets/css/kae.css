@@ -1,25 +1,30 @@
 /* toppage */
 .start{
-	background: #FFF;
+	background-color: #FFF;
 	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	z-index: 9000;
+
 }
 .start p {
 	position: fixed;
-    font-size: 50px;
-	left: 50%;
+    left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	display: none;
 	z-index: 9999;
-	width: 70%;
-    color: yellow;
-    text-shadow: 1px 2px 3px red
+ 
 }
+
+.mcd{
+    height: 500px;
+    width: 500px
+    
+}
+
 /* toppage end */
 
 #peanuts{
@@ -39,11 +44,12 @@
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 40px;
+    font-family: 'Reggae One', cursive;
 }
 
 .peanutsimg{
     width: 500px;
-    height: 300px;
+    height: 400px;
  
 }
 
@@ -51,16 +57,48 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 20px;
-    margin: 20px 20px;
+    width: 95%;
+    margin: 0 auto;
+
 
 }
 
+.saying-container{
+    margin: 40px 40px;
+}
+
 .saying-container p{
+    width: 500px;
     font-size: large;
-    line-height: 1.2;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-family: 'Reggae One', cursive;
 }
 
 footer{
     text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+
+.loading {
+    padding: 0;
+    margin: 0;
+    display: fixed
+}
+
+.loading img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding-left: 100%;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
 }
