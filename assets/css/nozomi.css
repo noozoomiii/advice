@@ -1,14 +1,29 @@
-header img{
+/* header{
+    display: flex; 
+    justify-content: center;
+} */
+
+.mc{
     height: 100px;
+    
+}
+
+.clickme{
+    height: 40px;
+    /* margin-top: 10px; */
+    position: absolute;
+    top: 5%;
+    left: 80%;
 }
 
 .mc-btn{
     cursor: pointer;
-}
-
-header div{
     text-align: center;
     margin-top: 10px;
+    position: relative;
+    width: 112px;
+    margin: 0 auto;
+
 }
 
 /*slick setting*/
