@@ -49,7 +49,7 @@ $(function () {
     // }
 
     $('.icon-ice').on('click', function () {
-        $('.target-mc').toggleClass('hide');
+        $('.target-mc1').toggleClass('hide');
     })
 
 

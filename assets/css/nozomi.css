@@ -6,21 +6,26 @@
 }
 
 .icon-ice,
+.icon-cup,
 .icon-utensils,
 .icon-burger{
     font-size: 30px;
+    cursor: pointer;
 }
 
 .icon-ice{
     margin-left: 50px;
     color: pink;
-    cursor: pointer;
+}
+
+.icon-cup{
+    margin-left: 20px;
+    color: skyblue;
 }
 
 .icon-utensils{
     margin-right: 20px;
     color: rgb(192, 187, 187);
-    cursor: pointer;
 }
 
 .icon-burger{
@@ -48,7 +53,7 @@
     left: 30%;
 }
 
-.target-mc.hide{
+.target-mc1.hide{
     transform: translateY(80px);
     /* transform: translateX(100vw); */
 }
@@ -57,13 +62,13 @@
     position: relative;
 }
 
-.target-mc{
+.target-mc1{
     height: 200px;
     transform: translateY(-30px);
     transition: all 1s ease;
     position: absolute;
     top: 0%;
-    left: 700%;
+    left: 430%;
 }
 
 
