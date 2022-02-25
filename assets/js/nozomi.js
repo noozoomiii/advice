@@ -38,19 +38,23 @@ $(function () {
             });
     })
 
-    $('.icon-utensils').on('click', function () {
-        $('.target-donald').toggleClass('hide');
-    })
-
-    // if (position > Q11_position) {
-    //     $('.q11-target').removeClass('hide');
-    // } else {
-    //     $('.q11-target').addClass('hide');
-    // }
-
     $('.icon-ice').on('click', function () {
         $('.target-mc1').toggleClass('hide');
     })
+
+    $('.icon-cup').on('click', function () {
+        $('.target-mc2').toggleClass('hide');
+    })
+
+    $('.icon-utensils').on('click', function () {
+        $('.target-mc3').toggleClass('hide');
+    })
+
+    $('.icon-burger').on('click', function () {
+        $('.target-mc4').toggleClass('hide');
+    })
+
+
 
 
 
