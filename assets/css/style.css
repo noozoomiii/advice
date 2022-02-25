@@ -1,0 +1,313 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px 0; 
+}
+
+.icon-ice,
+.icon-cup,
+.icon-utensils,
+.icon-burger{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icon-ice{
+    margin-left: 50px;
+    color: pink;
+}
+
+.icon-cup{
+    margin-left: 20px;
+    color: skyblue;
+}
+
+.icon-utensils{
+    margin-right: 20px;
+    color: rgb(192, 187, 187);
+}
+
+.icon-burger{
+    margin-right: 50px;
+    color: rgb(250, 166, 57);
+}
+
+
+.header-left{
+    position: relative;
+}
+
+.target-mc1.hide{
+    transform: translateY(0%);
+    /* transform: translateX(100vw); */
+}
+
+.target-mc1{
+    height: 200px;
+    transform: translateY(-50%);
+    transition: all 1s ease;
+    position: absolute;
+    top: 250%;
+    left: 430%;
+}
+
+.target-mc2.hide{
+    transform: translateX(0%);
+    /* transform: translateX(100vw); */
+}
+
+.target-mc2{
+    height: 90px;
+    transform: translateX(300%);
+    transition: all 1s ease;
+    position: absolute;
+    top: -90%;
+    left: -150%;
+}
+
+.header-right{
+    position: relative;
+    /* overflow-x: hidden; */
+    /* padding: 35px 0; */
+}
+
+.target-mc3.hide{
+    transform: translateY(10%);
+    /* transform: translateX(100vw); */
+}
+
+.target-mc3{
+    height: 90px;
+    transform: translateY(-45%);
+    transition: all 1s ease;
+    position: absolute;
+    /* z-index: 1; */
+    top: 230%;
+    left: 38%;
+}
+
+.target-mc4.hide{
+    transform: translateY(0%);
+    /* transform: translateX(100vw); */
+}
+
+.target-mc4{
+    height: 200px;
+    transform: translateY(50%);
+    transition: all 1s ease;
+    position: absolute;
+    top: -820%;
+    left: -360%;
+}
+
+
+.mc{
+    height: 100px;
+}
+
+.mc-btn{
+    cursor: pointer;
+    /* text-align: center; */
+    /* margin-top: 10px; */
+    position: relative;
+    width: 112px;
+    /* margin: 0 auto; */
+}
+
+.clickme{
+    height: 40px;
+    /* margin-top: 10px; */
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+/*slick setting*/
+.slide{
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.slide{
+    position: relative;
+}
+
+.advice-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 440px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.advice{
+    width: 60%;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.233); */
+    font-size: 50px;
+    line-height: 1.5em;
+    font-family: 'Sigmar One', cursive;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+}
+
+.slider li{
+    text-align: center;
+}
+
+.slider img{
+    height: 450px;
+    width: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: whitesmoke;
+}
+
+.slick-dots li
+button:before{
+    color: black;
+}
+
+.slick-initialized .slick-slide{
+    display: flex;
+    justify-content: center;
+} 
+
+
+/* toppage */
+.start{
+	background-color: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+
+}
+.start p {
+	position: fixed;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+ 
+}
+
+.mcd{
+    height: 500px;
+    width: 500px
+    
+}
+
+/* toppage end */
+
+
+#peanuts{
+    width: 100%;
+    height: 70%;
+    padding: 10px 10px;
+  
+}
+
+.image-containar{
+    width: 100%;
+   
+}
+
+.title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Reggae One', cursive;
+}
+
+.peanutsimg{
+    /* width: 500px; */
+    height: 400px;
+ 
+}
+
+.image-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+
+
+}
+
+.saying-container{
+    margin: 40px 40px;
+}
+
+.saying-container p{
+    width: 500px;
+    font-size: large;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-family: 'Reggae One', cursive;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+
+.loading {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    display: fixed
+}
+
+.loading :hover{
+    animation-play-state: paused;
+}
+
+.loading p{
+    text-align: center;
+    font-size: 50px;
+    font-family:fantasy;
+    color: red;
+    margin-top: 20px;
+}
+
+.loading img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding-left: 100%;
+    animation: scroll 1s linear infinite;
+}
+
+footer{
+    margin: 30px 0;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

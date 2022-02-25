@@ -1,12 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Advice</title>
+    <script src="https://kit.fontawesome.com/6f3496e83b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./plugin/letterfx/jquery-letterfx.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sigmar+One&family=Staatliches&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+
+
+        <div class="header-left">
+            <i class="fa-solid fa-ice-cream icon-ice"></i>
+            <img src="./assets/img/mcdonald1.jpeg" alt="mcdonald" class="target-mc1 hide">
+            <i class="fa-solid fa-mug-hot icon-cup"></i>
+            <img src="./assets/img/mcdonald2.jpeg" alt="mcdonald" class="target-mc2 hide">
+
+
+        </div>
+
+        <div class="mc-btn">
+            <img src="./assets/img/mcd-logo.svg" alt="mc" class="mc">
+            <img src="./assets/img/clickme.jpg" alt="clickme" class="clickme">
+        </div>
+
+        <div class="header-right">
+            <i class="fa-solid fa-utensils icon-utensils"></i>
+            <img src="./assets/img/mcdonald3.jpeg" alt="mcdonald" class="target-mc3 hide">
+            <i class="fa-solid fa-burger icon-burger"></i>
+            <img src="./assets/img/mcdonald4.jpeg" alt="mcdonald" class="target-mc4 hide">
+        </div>
+
+
+
+
+    </header>
+
+    <section class="slide">
+        <ul class="slider">
+            <li>
+                <img src="./assets/img/burger.jpg" alt="burger">
+            </li>
+            <li>
+                <img src="./assets/img/cat.jpg" alt="cat">
+            </li>
+            <li>
+                <img src="./assets/img/dog.jpg" alt="dog">
+            </li>
+            <li>
+                <img src="./assets/img/girls.jpg" alt="girls">
+            </li>
+            <li>
+                <img src="./assets/img/happy.jpg" alt="happy">
+            </li>
+            <li>
+                <img src="./assets/img/hope.jpg" alt="hope">
+            </li>
+            <li>
+                <img src="./assets/img/sunglasses.jpg" alt="sunglasses">
+            </li>
+            <li>
+                <img src="./assets/img/sunset.jpg" alt="sunset">
+            </li>
+            <li>
+                <img src="./assets/img/tree.jpg" alt="tree">
+            </li>
+            <li>
+                <img src="./assets/img/walk.jpg" alt="walk">
+            </li>
+        </ul>
+        <div class="advice-box">
+            <p class="advice"></p>
+        </div>
+    </section>
+
+
+    <main>
+        <section id="peanuts">
+            <h2 class="title">famous quote by peanuts</h2>
+            <div class="image-container">
+                <div class="image-list">
+                    <div class="saying-container">
+                        <img src="./assets/img/rainbow.jpeg" alt="" class="peanutsimg">
+                        <p>空を見上げ続けて...それが人生のコツだよ。</p>
+                        <p>Keep looking up...That's the secret of life...</p>
+
+                    </div>
+                    <div class="saying-container">
+
+                        <img src="./assets/img/tomodachi.jpeg" alt="" class="peanutsimg">
+                        <p>友達とはあなたの欠点を愛してくれる人のこと。</p>
+                        <p>A friend is someone who loves you
+                            <br>
+                            in spite of your faults.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="image-list">
+                    <div class="saying-container">
+                        <img src="./assets/img/girl.jpeg" alt class="peanutsimg">
+                        <p>どん底までいったんならまた新しく始められるわ。</p>
+                        <p>Now that you've hit bottom,
+                            <br>
+                            you could start over.
+                        </p>
+                    </div>
+
+                    <div class="saying-container">
+                        <img src="./assets/img/draw.jpeg" alt class="peanutsimg">
+                        <p>僕の人生は塗り絵みたいだ！
+                            <br>
+                            毎日新しいページに新しい絵があって色を塗るんだ...
+                        </p>
+                        <p>My life is like a coloring book!
+                            <br>
+                            Each day I have a new page with new picture to color.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="loading">
+                <p>Catch me If you can!</p>
+                <img src="./assets/img/snoopy1.jpeg" alt="">
+            </div>
+
+        </section>
+
+    </main>
+    <footer><small>&copy;</small>2022 Nozomi & Kae</footer>
+    <div class="start">
+        <p class="fade">
+            <img src="./assets/img/mcdonalds_PNG23.png" alt="" class="mcd">
+        </p>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/slick/slick.min.js"></script>
+    <script src="./plugin/letterfx/jquery-letterfx.js"></script>
+    <script src="./plugin/letterfx/jquery-letterfx.min.js"></script>
+    <script src="./plugin/letterfx/tuxsudo.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
