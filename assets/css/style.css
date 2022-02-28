@@ -328,28 +328,48 @@ footer{
     }
 
     .peanutsimg{
-        height: 150px;
+        width: 100%;
+        height: auto;
     
     }
 
-    .saying-container p{
-        height: 150px;
+    .saying-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .mcd{
         width: 200px;
         height: 200px;
     }
-        
 
+    h2.title{
+        font-size: 20px;
+    }
+
+    .loading p{
+        font-size: 30px;
+    }
+        
     .advice-box{
         height: 400px;
     }
-
-    
+ 
     .advice{
         font-size: 30px;
         width: 90%;
     }
-    
+
+   
+    .saying-container p{
+        width: auto;
+    }
+
+
+.saying-container{
+    margin: 10%;
+}
+
+
 }
