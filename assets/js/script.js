@@ -7,6 +7,15 @@ $(function () {
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '15%',
+        responsive: [{
+            breakpoint: 780,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false,
+                // centerPadding: '0%',
+            }
+        }]
     });
 
     $('.mc-btn').on('click', function () {

@@ -311,3 +311,21 @@ footer{
         transform: translateX(100%);
     }
 }
+
+@media screen and (max-width: 780px) {
+    .slider img{
+        height: 200px;
+    }
+
+    .header-left,
+    .header-right{
+        display: none;
+    }
+
+    .header{
+        justify-content: center;
+    }
+
+
+    
+}
