@@ -14,6 +14,7 @@ $(function () {
                 slidesToScroll: 1,
                 centerMode: true,
                 centerPadding: '0%',
+                variableWidth: true,
             }
         }],
     });
