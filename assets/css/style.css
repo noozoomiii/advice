@@ -314,7 +314,8 @@ footer{
 
 @media screen and (max-width: 780px) {
     .slider img{
-        height: 200px;
+        height: 400px;
+        width: auto;
     }
 
     .header-left,
@@ -340,8 +341,15 @@ footer{
         height: 200px;
     }
         
-        
-        
-        
+
+    .advice-box{
+        height: 400px;
+    }
+
+    
+    .advice{
+        font-size: 30px;
+        width: 90%;
+    }
     
 }
