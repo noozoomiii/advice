@@ -12,10 +12,10 @@ $(function () {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerMode: false,
-                // centerPadding: '0%',
+                centerMode: true,
+                centerPadding: '0%',
             }
-        }]
+        }],
     });
 
     $('.mc-btn').on('click', function () {
